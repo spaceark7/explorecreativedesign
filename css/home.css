@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.left-side {
+  height: 100vh;
+  padding: 0 !important;
+}
+
+.yellowBar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 150px;
+  background-color: #F3DF4D;
+  top: 100px;
+}
+.yellowBar img {
+  width: 400px;
+}
+.briefDesc  {
+  position: relative;
+  top: 100px;
+  width: 410px;
+  left: 5%;
+}
+.briefDesc h2 {
+  position: relative;
+  top: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #F3DF4D;
+  font-weight: 600;
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+ 
+}
+.briefDesc p {
+  padding-top: 10px;
+}
+.briefDesc p span {
+  font-weight: 700;
+}
+.menuList {
+  position: relative;
+  top: 80px;
+  display: flex;
+}
+ .menuList ul {
+  position: relative;
+  top: 25px;
+}
+
+.menuList ul li {
+  padding: 20px 0 0 40px;
+}
+
+.menuList ul li .menuBox h2 {
+  position: relative;
+  margin: 0;
+  font-weight: 900;
+  transition: 0.2s ease-out;
+  left: 0;
+}
+
+.menuList ul li .menuBox h2:hover{
+  cursor: pointer;
+  font-size: 5em;
+  left: 5px;
+}
+
+
+/* .menuList ul li .menuBox h2::before {
+  content: '';
+  background-color: #F3DF4D;
+  width: 200px;
+  left: 10px;
+  height: 10px;
+} */
+
+.menuList ul li .menuBox .yellowStripe {
+  position: relative;
+  background-color: #F3DF4D;
+  width: 400px;
+  height: 20px;
+  top: -30px;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.right-side {
+  position: relative;
+  display: flex;
+  height: 100vh;
+}
+.right-side .vertical-separator {
+  height: 50%;
+  border-left: #000 2px solid;
+  animation-delay: 0.2s;
+}
+.right-side .vertical-separator h2 {
+  position: relative;
+    top: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F3DF4D;
+    font-weight: 600;
+    font-size: 4em;
+    padding: 20px;
+    margin: 0;
+    animation-delay: 0.6s;
+  
+}
+.right-side .image-container {
+  position: absolute;
+    /* height: 70%; */
+    align-items: end;
+    bottom: 0px;
+    width: 100%;
+    justify-content: flex-end;
+    /* right: -300px */;
+    --animate-duration: 0.9s;
+  
+} 
+.right-side .image-container::before {
+  bottom: 0;
+    /* left: 40px; */
+    right: 40px;
+    content: "";
+    background-color: #F3DF4D;
+    /* top: 0px; */
+    height: 450px;
+    width: 400px;
+    position: absolute;
+}
+.right-side .image-container p {
+  padding-left: 15px;
+  position: relative;
+  font-size: 25px;
+  top: 250px;
+  width: 350;
+  animation-delay: 2s;
+}
+.right-side .image-container p span {
+  font-weight: 800;
+}
+.right-side img {
+  position: relative;
+    justify-content: end;
+    height: 600px;
+    /* align-items: end; */
+    right: -300px;
+  
+    animation-delay: 1.2s;
+}
+
+
+@media (max-width: 1024px) {
+  .menuList ul li .menuBox h2 {
+    font-size: 2.5em;
+  }
+
+  .right-side .vertical-separator h2 {
+    font-size: 2.5em;
+  }
+
+  .right-side .image-container p {
+    font-size: 18px;
+  }
+
+  .right-side .image-container::before {
+    height: 350px;
+    width: 350px;
+    right: 0;
+  }
+
+  .right-side img {
+    height: 500;
+    right: -200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .yellowBar {
+    width: 400px;
+  }
+  .yellowBar img {
+    width: 300px;
+  }
+
+  .briefDesc h2 {
+    font-size: 2.5em;
+  }
+  .menuList ul li .menuBox .yellowStripe {
+    width: 200px;
+    height: 20px;
+  }
+
+  .menuList ul li .menuBox h2:hover {
+    font-size: 3.5em;
+  }
+
+  .right-side .vertical-separator h2 {
+    font-size: 2em;
+  }
+
+  .right-side .vertical-separator {
+    height: 30%;
+  }
+
+  .right-side img {
+    height: 500px;
+    right: -150px;
+  }
+
+  .right-side .image-container p {
+    font-size: 15px;
+    z-index: 3;
+    padding-left: 5px;
+  }
+  
+}
+
+@media (max-width: 425px) {
+  .yellowBar {
+    top: 20px;
+  }
+  .briefDesc {
+    top: 30px;
+  }
+  .menuList {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-side .vertical-separator {
+    height: 10%;
+    border-left: none;
+    border-bottom: black 1px solid;
+}
+.right-side .image-container {
+  width: 100%;
+}
+
+.right-side .image-container::before {
+  width: 100%;
+}
+}
+
+@media (max-width: 375px) {
+  .yellowBar {
+    width: 100%;
+  }
+
+  .briefDesc {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .briefDesc p {
+    font-size: 12px;
+  }
+
+  .right-side .image-container p {
+    font-size: 12px;
+  }
+
+  
+}
+
+
+

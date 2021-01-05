@@ -1,0 +1,36 @@
+{
+  "name": "Explore Creative Design",
+  "short_name": "Explore Creative",
+  "description": "Design Studio For Branding And Digital Marketing",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#F3DF4D",
+  "theme_color": "#F3DF4D",
+  "icons" : [
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+      
+    },
+    {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+      
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+      
+    },
+    {
+      "src": "logo144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+    
+    
+  ]
+}

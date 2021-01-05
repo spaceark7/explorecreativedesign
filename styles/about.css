@@ -1,0 +1,81 @@
+.aboutBox {
+    background: #F5DF4D;
+    height: 100%;
+}
+
+
+.aboutBox .topBox {
+    padding-top: 50px;
+}
+
+.aboutBox .BottomBox {
+    padding-bottom: 100px;
+}
+
+.aboutBox .aboutTitle {
+    font-weight: 800;
+    font-size: 3em;
+}
+.aboutBox .aboutText {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.cta-button2 {
+    background-color: black;
+    color: #F5DF4D;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 1.3em;
+}
+
+@media (max-width: 1024px) {
+    .aboutBox .aboutTitle {
+    
+        font-size: 2.5em;
+    }
+
+    .aboutBox .aboutText {
+    
+        font-size: 1.8em;
+    }
+
+    .cta-button2 {
+    padding: 10px;
+    font-size: 1em;
+    }
+}
+
+@media (max-width:768px) {
+    .aboutBox .BottomBox {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    
+    .aboutBox .aboutTitle {
+        font-size: 1.8em;
+    }
+    .aboutBox .aboutText {
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width: 320px) {
+    
+    .aboutBox .aboutTitle {
+        font-size: 1.3em;
+    }
+    .aboutBox .aboutText {
+        font-size: 1em;
+    }
+    .cta-button2 {
+       
+        font-size: 0.7em;
+    }
+
+}
+

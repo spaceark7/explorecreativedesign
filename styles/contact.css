@@ -1,0 +1,141 @@
+.contact-box {
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  
+}
+
+
+.ctitleBox {
+  border-top: black 1px solid;
+  margin-bottom: 50px;
+}
+
+.ctitleBox h2 {
+  font-weight: 700;
+  font-size: 2.2em;
+  
+}
+
+.ctitle {
+  margin-bottom: 100px;
+}
+.courservice h3 {
+  font-weight: 700;
+  font-size: 2.2em;
+}
+
+.cservice {
+  text-align: center;
+}
+.cservice p {
+  font-weight: 600;
+}
+
+.cservice h4 {
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  background-color: black;
+
+}
+
+.ctitle p {
+  font-weight: 700;
+}
+
+.ctitleDesc p {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.contact-box .cta-text {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.contact-box .cta-desc {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.contact-box .cta-button2 {
+  background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 1.2em;
+    margin-bottom: 100px;
+}
+.contact-box .cctabox {
+  margin-bottom: 200px;
+}
+
+.contact-box .cta-desc {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .cservice h4 {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+}
+
+@media (max-width:768px) {
+  .cservice p {
+    font-size: 11px;
+}
+.cservice h4 {
+  font-size: 1em;
+  padding: 10px;
+}
+}
+
+@media (max-width:425px) {
+  .contact-box {
+    padding: 30px;
+  }
+  .ctitleDesc p {
+    font-size: 1.2em;
+    padding-left: 20px;
+  }
+
+  .courservice h3 {
+    font-weight: 700;
+    font-size: 2em;
+}
+.contact-box .cta-desc {
+  font-size: 1em;
+  font-weight: 600;
+}
+.contact-box .cta-button2 {
+  font-size: 0.8em;
+  padding: 10px;
+}
+}
+
+@media (max-width:320px) {
+  .contact-box .cta-desc {
+    font-size: 0.8em;
+    
+}
+.contact-box .cta-button2 {
+  font-size: 0.7em;
+  padding: 10px;
+}
+
+.ctitle p {
+  font-size: 0.7em;
+}
+
+.ctitleDesc p {
+  font-size: 0.9em;
+  padding-left: 20px;
+}
+}
